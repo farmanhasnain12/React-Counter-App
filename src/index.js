@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import UseState from "./components/Hooks/useState";
+import UseReducer from "./components/Hooks/UseReducer";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UseReducer />
   </React.StrictMode>,
   document.getElementById('root')
 );
